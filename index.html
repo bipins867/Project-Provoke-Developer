@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="input-container">
+        <label for="videoIdInput">Enter YouTube Video ID:</label>
+        <input type="text" id="videoIdInput" value="tjQIO1rqTBE" placeholder="Enter Video ID">
+        <button onclick="loadVideo()">Open</button>
+    </div>
+    
+    <div id="video-container"></div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
